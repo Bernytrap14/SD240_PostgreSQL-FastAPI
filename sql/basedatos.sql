@@ -22,6 +22,7 @@ CREATE TABLE app.compras(
 	id_usuario INTEGER,
 	producto VARCHAR(100),	
 	precio FLOAT,
+	
 	FOREIGN KEY(id_usuario) REFERENCES app.usuarios(id)	
 );
 
